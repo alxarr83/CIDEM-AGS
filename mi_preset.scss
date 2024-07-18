@@ -1,0 +1,11 @@
+/* Cambia el color del fondo del menú */
+.menu {
+    background-color: #0cb7f2; /* Azul */
+    color: #ffffff; /* Blanco */
+}
+
+/* Cambia el color de fondo cuando se selecciona una opción */
+.menu .selected {
+    background-color: #ffffff; /* Blanco */
+    color: #0cb7f2; /* Azul */
+}
