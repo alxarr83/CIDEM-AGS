@@ -1,0 +1,46 @@
+[Mon Jul 15 09:29:23.308591 2024] [ssl:warn] [pid 10356:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 15 09:29:23.475303 2024] [ssl:warn] [pid 10356:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 15 09:29:27.718947 2024] [mpm_winnt:notice] [pid 10356:tid 436] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Mon Jul 15 09:29:27.719963 2024] [mpm_winnt:notice] [pid 10356:tid 436] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Mon Jul 15 09:29:27.719963 2024] [core:notice] [pid 10356:tid 436] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/LENOVO/Documents/Alx/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Jul 15 09:29:27.893034 2024] [mpm_winnt:notice] [pid 10356:tid 436] AH00418: Parent: Created child process 196
+[Mon Jul 15 09:29:28.854944 2024] [ssl:warn] [pid 196:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 15 09:29:28.976736 2024] [ssl:warn] [pid 196:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 15 09:29:29.080960 2024] [mpm_winnt:notice] [pid 196:tid 432] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 15 09:29:46.759022 2024] [php:warn] [pid 196:tid 1884] [client ::1:57088] PHP Warning:  require_once(C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my/../config.php): Failed to open stream: No such file or directory in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my\\index.php on line 37
+[Mon Jul 15 09:29:46.838485 2024] [php:error] [pid 196:tid 1884] [client ::1:57088] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my/../config.php' (include_path='C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\php\\PEAR') in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my\\index.php:37\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my\\index.php on line 37
+[Mon Jul 15 09:31:07.696039 2024] [php:warn] [pid 196:tid 1876] [client ::1:57097] PHP Warning:  require_once(C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my/../config.php): Failed to open stream: No such file or directory in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my\\index.php on line 37
+[Mon Jul 15 09:31:07.696039 2024] [php:error] [pid 196:tid 1876] [client ::1:57097] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my/../config.php' (include_path='C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\php\\PEAR') in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my\\index.php:37\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\my\\index.php on line 37
+[Mon Jul 15 09:31:20.277000 2024] [php:warn] [pid 196:tid 1876] [client ::1:57103] PHP Warning:  require(../config.php): Failed to open stream: No such file or directory in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php on line 51
+[Mon Jul 15 09:31:20.277000 2024] [php:error] [pid 196:tid 1876] [client ::1:57103] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\php\\PEAR') in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php:51\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php on line 51
+[Mon Jul 15 09:31:24.110054 2024] [php:warn] [pid 196:tid 1860] [client ::1:57105] PHP Warning:  require(../config.php): Failed to open stream: No such file or directory in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php on line 51
+[Mon Jul 15 09:31:24.111056 2024] [php:error] [pid 196:tid 1860] [client ::1:57105] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\php\\PEAR') in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php:51\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php on line 51
+[Mon Jul 15 09:31:25.323057 2024] [php:warn] [pid 196:tid 1876] [client ::1:57104] PHP Warning:  require(../config.php): Failed to open stream: No such file or directory in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php on line 51
+[Mon Jul 15 09:31:25.323057 2024] [php:error] [pid 196:tid 1876] [client ::1:57104] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\php\\PEAR') in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php:51\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\LENOVO\\Documents\\Alx\\Moodle\\server\\moodle\\admin\\cron.php on line 51
+[Mon Jul 15 09:34:37.039738 2024] [mpm_winnt:notice] [pid 10356:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 15 09:34:39.063656 2024] [mpm_winnt:notice] [pid 196:tid 432] AH00364: Child: All worker threads have exited.
+[Mon Jul 15 09:34:39.392876 2024] [mpm_winnt:notice] [pid 10356:tid 436] AH00430: Parent: Child process 196 exited successfully.
+[Wed Jul 17 07:49:01.243986 2024] [ssl:warn] [pid 22256:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 17 07:49:01.494010 2024] [ssl:warn] [pid 22256:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 17 07:49:06.701654 2024] [mpm_winnt:notice] [pid 22256:tid 432] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed Jul 17 07:49:06.701654 2024] [mpm_winnt:notice] [pid 22256:tid 432] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed Jul 17 07:49:06.701654 2024] [core:notice] [pid 22256:tid 432] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/LENOVO/Documents/Alx/Moodle/server/apache -f conf\\httpd.conf'
+[Wed Jul 17 07:49:06.732908 2024] [mpm_winnt:notice] [pid 22256:tid 432] AH00418: Parent: Created child process 13216
+[Wed Jul 17 07:49:07.748549 2024] [ssl:warn] [pid 13216:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 17 07:49:07.873542 2024] [ssl:warn] [pid 13216:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 17 07:49:08.014226 2024] [mpm_winnt:notice] [pid 13216:tid 460] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 17 15:53:13.186236 2024] [mpm_winnt:notice] [pid 22256:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jul 17 15:53:15.358113 2024] [mpm_winnt:notice] [pid 13216:tid 460] AH00364: Child: All worker threads have exited.
+[Wed Jul 17 15:53:17.998631 2024] [mpm_winnt:notice] [pid 22256:tid 432] AH00430: Parent: Child process 13216 exited successfully.
+[Fri Jul 19 12:57:15.457901 2024] [ssl:warn] [pid 22372:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 19 12:57:15.924942 2024] [ssl:warn] [pid 22372:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 19 12:57:30.424162 2024] [mpm_winnt:notice] [pid 22372:tid 436] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Fri Jul 19 12:57:30.424162 2024] [mpm_winnt:notice] [pid 22372:tid 436] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Fri Jul 19 12:57:30.424162 2024] [core:notice] [pid 22372:tid 436] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/LENOVO/Documents/Alx/Moodle/server/apache -f conf\\httpd.conf'
+[Fri Jul 19 12:57:30.439771 2024] [mpm_winnt:notice] [pid 22372:tid 436] AH00418: Parent: Created child process 9448
+[Fri Jul 19 12:57:31.446308 2024] [ssl:warn] [pid 9448:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 19 12:57:31.744746 2024] [ssl:warn] [pid 9448:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 19 12:57:31.869722 2024] [mpm_winnt:notice] [pid 9448:tid 468] AH00354: Child: Starting 150 worker threads.
+[Fri Jul 19 13:56:53.808599 2024] [mpm_winnt:notice] [pid 22372:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jul 19 13:56:55.839931 2024] [mpm_winnt:notice] [pid 9448:tid 468] AH00364: Child: All worker threads have exited.
+[Fri Jul 19 13:56:57.755660 2024] [mpm_winnt:notice] [pid 22372:tid 436] AH00430: Parent: Child process 9448 exited successfully.

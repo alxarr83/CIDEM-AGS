@@ -1,0 +1,7 @@
+# Ignorar archivos de base de datos de MySQL que son demasiado grandes
+server/mysql/data/ib_logfile1
+server/mysql/data/ibdata1
+server/mysql/data/ib_logfile0
+
+# Ignorar archivos de instalación grandes
+MoodleWindowsInstaller-latest-404.zip
